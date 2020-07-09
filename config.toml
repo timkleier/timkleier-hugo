@@ -1,0 +1,72 @@
+baseurl      = "timkleier.github.io"
+title        = "Tim Kleier"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Profile picture for home
+  homePicture = "/img/avatar.png"
+
+  # Subtitle for home
+  homeSubtitle = "Software Architect // Leader // Systems Thinker"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you linke
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Software Architect // Leader // Systems Thinker"
+  keywords = "homepage, blog"
+  images = [""]
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  # Portrait on home page
+  [params.portrait]
+    path     = "/images/avatar.png"
+    alt      = "Portrait"
+    maxWidth = "150px"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/timkleier"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/timkleier"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://linkedin.com/in/timkleier"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Tim Kleier"
+    subtitle = "Software Architect. Leader. Systems Thinker."
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Tim Kleier"
+      logoHomeLink = "/"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    # identifier = "blog"
+    # name       = "Blog"
+    # url        = "/posts"
