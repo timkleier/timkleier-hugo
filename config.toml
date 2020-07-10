@@ -1,4 +1,4 @@
-baseurl      = "timkleier.github.io"
+baseurl      = "http://timkleier.com"
 title        = "Tim Kleier"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
