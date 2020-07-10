@@ -48,6 +48,10 @@ paginate     = 10
     name = "linkedin"
     url  = "https://linkedin.com/in/timkleier"
 
+  [[params.social]]
+    name = "medium"
+    url  = "https://medium.com/@timkleier"
+
 [taxonomies]
     category = "blog"
     tag      = "tags"
@@ -62,11 +66,11 @@ paginate     = 10
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Tim Kleier"
+      logoText = "TimKleier.com"
       logoHomeLink = "/"
 
   # And you can even create generic menu
   [[menu.main]]
-    # identifier = "blog"
-    # name       = "Blog"
-    # url        = "/posts"
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
